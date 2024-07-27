@@ -1,0 +1,154 @@
+.main-pagar{
+    display: flex;
+    align-items: center;
+    height: 590px;
+}
+
+.article-pagar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    transform: translateY(30px);
+}
+
+.bloco-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #1f1f1f;
+    width: 30%;
+    height: 450px;
+
+}
+
+#titulo-explica{
+    font-size:30px ;
+    transform: translateX(30px);
+    color: white;
+}
+
+#preco-explica{
+    font-size: 50px;
+    color: white;
+    transform: translateY(-30px);
+}
+
+.cartao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #1f1f1f;
+    border: solid 2px #00fdff;
+    border-radius: 80px;
+    width: 500px;
+    height: 400px;
+
+}
+
+#gerar-cartao{
+    color: white;
+    font-size: 20px;
+    transform: translateY(-30px);
+}
+
+#numero-cartao{
+    background-color: #1f1f1f;
+    color: white;
+    border: solid 1px #00fdff;
+    font-size: 20px;
+    width: 300px;
+    transform: translateY(-30px);
+}
+
+.blocos-input1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    transform: translateY(-30px);
+
+}
+
+#validade-cvv{
+    background-color: #1f1f1f;
+    color: white;
+    border: solid 1px #00fdff;
+    font-size: 20px;
+    width: 100px;
+}
+
+#botao-cartao{
+    font-size: 20px;
+    background-color: #0e5a6b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#botao-cartao:hover{
+    background-color: aqua;
+    width: 300px;
+
+}
+
+.boleto-pix{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    transform: translateY(-40px);
+}
+
+.boleto{
+    width: 35%;
+    height: 80px;
+    border: solid aqua 2px ;
+    border-radius: 20px;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.boleto:hover{
+    background-color: aqua;
+}
+
+.pix{
+    width: 35%;
+    height: 80px;
+    border: solid aqua 2px ;
+    border-radius: 20px;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.pix:hover{
+    background-color: aqua;
+}
+
+#icone-pagar{
+    font-size: 40px;
+    color: white;
+}
+
+#gerar-boleto{
+    color: white;
+    transform: translateY(-10px);
+}
+
+#gerar-pix{
+    color: white;
+}
